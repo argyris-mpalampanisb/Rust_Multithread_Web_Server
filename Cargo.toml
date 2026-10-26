@@ -1,0 +1,12 @@
+[package]
+name = "multithread_web_server"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "multithread_web_server"
+path = "src/lib.rs"
+
+[[bin]]
+name = "multithread_web_server"
+path = "src/main.rs"
